@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, TextBase } from 'react-native';
 
 
 
@@ -7,7 +7,9 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function Loading() {
     return (<View style={styles.container}>
         <Text style={styles.Text}>Getting the fucking weathere</Text>
+        
     </View> 
+
     
     
     );

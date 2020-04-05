@@ -13,7 +13,7 @@ export default class extends React.Component {
     
     const response = await Location.requestPermissionsAsync();  //권한요청 안한다면 에러발생
     const {coords:{latitude,longitude}} = await Location.getCurrentPositionAsync();
-    this.setState({isLoding:false})
+    this.setState({isLoding:true})
     //Todo :: wether API Use
     
     }catch(err){
